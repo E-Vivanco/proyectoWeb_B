@@ -1,22 +1,19 @@
 body{
-    background-color: rgb(25, 92, 70,.3);
+    background-color: white;
 }
 
 #menu{
-    background-color: aquamarine;
+    background-color: white;
 }
-#grilla{
-    background-color: aquamarine;
+#galeria{
+    background-color: white;
 }
 #modal{
-    background-color: aqua;
+    background-color: white;
 }
-#galeria,#gal1,#gal2{
-    background-color: aquamarine;
+#fotos-m{
+    background-color: white;
 }
-#unaCarta{
-    background-color: aquamarine;
-}
-#cards{
-    background-color: aquamarine;
+#cartas{
+    background-color: white;
 }

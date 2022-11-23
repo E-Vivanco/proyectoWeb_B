@@ -1,42 +1,152 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>imagenes centradas</title>
-  <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-  <link rel="stylesheet" href="../styles.css" />
+    <meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Pagina0</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-<section id="unaCarta">    
-<article class="row  d-flex justify-content-center">
-    <div class="card-group ">
-        <div class="card m-4">
-          <img class="card-img-top" src="https://picsum.photos/id/218/400/400
-          " alt="Card image cap">
+  <section id="menu">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" href="#">
+            <i class="fa-brands fa-instagram  fa-2x"></i>
+            Instagram
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <button type="button" class="btn btn-success mt-3 p-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Create a New Post
+                  </button>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                   <button type="button" class="btn btn-secondary">
+                    <i class="fa-solid fa-gear"></i><i class="fa-solid fa-caret-down mx-2"></i>
+                   </button>  
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                    <li><a class="dropdown-item" href="#">Profile</a></li>
+                    <li><a class="dropdown-item" href="#">Accesibility</a></li>
+                    <li><a class="dropdown-item" href="#">Privacity and Data</a></li>
+                    <li><a class="dropdown-item bg-danger" href="#">Log out</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
         </div>
-        </div>
-</article>
-<article class="row  d-flex justify-content-center">
-    <div class="card-group">
-        <div class="card m-4">
-          <img class="card-img-top " src="https://picsum.photos/id/219/400/400
-          " alt="Card image cap">
-        </div>
-        </div>
-</article>
-<article class="row  d-flex justify-content-center">
-    <div class="card-group">
-        <div class="card m-4">
-          <img class="card-img-top " src="https://picsum.photos/id/220/400/400
-          " alt="Card image cap">
-        </div>
-        </div>
-</article>
-</section>
+      </nav>
+    </section>
+        <!-- agregar aqui las cards multiples o la cards en linea-->
+        <section id="galeria">
+          <div class="container">
+              <ul class="nav justify-content-center">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="../index.html"><i class="fa-solid fa-grip"></i></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="./proyecto_boots/card.html"><i class="fa-solid fa-square"></i></a>
+                </li>
+              </ul>
+            </div>
+          </section>
+  <section id="cartas">
+    <div class="card text-center">
+        <div class="card-header">
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                      <article class="row">
+                        <div class="card-group ">
+                            <div class="card m-4">
+                                <div class="card-text d-flex justify-content-between">
+                                <h4 class="card-title text-left">Imagen primera</h4>
+                                <h4>1/3</h4>
+                                </div>
+                              <img class="card-img-top" src="https://picsum.photos/id/218/400/400
+                              " alt="Card image cap">
+                              <div class="card-body">
+                                <h5 class="card-title">Descripcion de la imagen</h5>
+                                <p class="card-text">Loren ipsum Loren ipsum Loren ipsum Loren ipsum</p>
+                            </div>
+                            </div>
+                    </article>
+                    <article class="row">
+                        <div class="card-group ">
+                            <div class="card m-4">
+                                <div class="card-text d-flex justify-content-between">
+                                <h4 class="card-title text-left">Imagen segunda</h4>
+                                <h4>2/3</h4>
+                                </div>
+                              <img class="card-img-top" src="https://picsum.photos/id/219/400/400
+                              " alt="Card image cap">
+                              <div class="card-body">
+                                <h5 class="card-title">Descripcion de la imagen</h5>
+                                <p class="card-text">Loren ipsum Loren ipsum Loren ipsum Loren ipsum</p>
+                            </div>
+                            </div>
+                    </article>
+                    <article class="row">
+                        <div class="card-group ">
+                            <div class="card m-4">
+                                <div class="card-text d-flex justify-content-between">
+                                <h4 class="card-title text-left">Imagen tercera</h4>
+                                <h4>3/3</h4>
+                                </div>
+                              <img class="card-img-top" src="https://picsum.photos/id/220/400/400
+                              " alt="Card image cap">
+                              <div class="card-body">
+                                <h5 class="card-title">Descripcion de la imagen</h5>
+                                <p class="card-text">Loren ipsum Loren ipsum Loren ipsum Loren ipsum.</p>
+                            </div>
+                            </div>
+                    </article>
+                </li>
+              </div>
+            </ul>
+                </div>
+          </section>
+          <section id="modal">
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Create a New Post</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <div class="col-12">
+                        <div class="form-group shadow-textarea">
+                            <label for="exampleFormControlTextarea6">Caption</label>
+                            <textarea class="form-control z-depth-1" id="exampleFormControlTextarea6" rows="3" placeholder="Ingresa tu nuevo post..."></textarea>
+                          </div>
+                        <ul class="col-12 bg-ligth d-flex">
+                            <div class="col-1 bg-ligth mt-2 p-1">
+                                <i class="fa-solid fa-camera-retro"></i>
+                            </div>
+                            <div class="col-1 bg-ligth mt-2 p-1">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-success">Publish</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 </body>
 </html>

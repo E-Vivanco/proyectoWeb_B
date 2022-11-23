@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Pagina0</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <section id="menu">
+    <div class="container">
+        <div class="row">
+        <div class="col-10 col-sm-8 bg-light mt-3 p-3 d-flex">
+          <i class="fa-brands fa-instagram  fa-2x"></i>
+          <div><p>Instagram</p></div>
+        </div>
+            <div class="col-1 col-sm-2 d-flex">
+                <button type="button" class="btn btn-success mt-3 p-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    New Post
+                  </button>
+                    <div class="col-1 col-sm-2 d-flex">
+                      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto">
+                           <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle bg-secondary mt-3 p-3" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fa-solid fa-gear"></i> Profile  
+                              </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <li><a class="dropdown-item" href="#">Profile</a></li>
+                              <li><a class="dropdown-item" href="#">Accesibility</a></li>
+                              <li><a class="dropdown-item" href="#">Privacity and Data</a></li>
+                              <li><a class="dropdown-item bg-danger" href="#">Log out</a></li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </nav>
+                </div>
+              </div>
+            </div>
+          </section>
+        <section id="grilla">
+         <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-sm-1 d-flex">
+                  <a href="./proyecto_boots/card.html"><i class="fa-solid fa-square "></i></a>
+                  </div>
+                   <div class="col-sm-1 d-flex"> 
+                    <a href="./proyecto_boots/cards_2.html"><i class="fa-solid fa-grip "></i></a>
+                   </div>
+                </div>
+              </div>
+      </section>
+       <!-- agregar aqui las cards multiples o la cards en linea-->
+        <section id="galeria">
+          <div class="container">
+            <div class="row">
+              <div id="gal1">
+                <img src="./proyecto_boots/card.html">
+              </div>
+              <div id="gal2">
+                <img src="./proyecto_boots/cards_2.html">
+              </div>
+            </div>
+          </div>
+          </section>
+          <!-- Modal -->
+            <section id="modal">
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Create a New Post</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <div class="col-12">
+                        <div class="form-group shadow-textarea">
+                            <label for="exampleFormControlTextarea6">Caption</label>
+                            <textarea class="form-control z-depth-1" id="exampleFormControlTextarea6" rows="3" placeholder="Ingresa tu nuevo post..."></textarea>
+                          </div>
+                        <ul class="col-12 bg-ligth d-flex">
+                            <div class="col-1 bg-ligth mt-2 p-1">
+                                <i class="fa-solid fa-camera-retro"></i>
+                            </div>
+                            <div class="col-1 bg-ligth mt-2 p-1">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-success">Publish</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> 
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>
