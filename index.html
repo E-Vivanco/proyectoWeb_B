@@ -9,11 +9,12 @@
 		<link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+  <section id="menu">
     <div class="container">
         <div class="row">
         <div class="col-10 col-sm-8 bg-light mt-3 p-3 d-flex">
           <i class="fa-brands fa-instagram  fa-2x"></i>
-          <div><p>   Instagram</p></div>
+          <div><p>Instagram</p></div>
         </div>
             <div class="col-1 col-sm-2 d-flex">
                 <button type="button" class="btn btn-success mt-3 p-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
@@ -41,51 +42,65 @@
                 </div>
               </div>
             </div>
-
- <div class="container">
-    <div class="row justify-content-center">
-        <div class="col-sm-1 d-flex">
-          <a href="./proyecto_boots/card.html"><i class="fa-solid fa-square "></i></a>
-          </div>
-           <div class="col-sm-1 d-flex"> 
-            <a href="./proyecto_boots/cards_2.html"><i class="fa-solid fa-grip "></i></a>
-           </div>
-        </div>
-      </div>
-  <div class="container">
-    <!-- agregar aqui las cards multiples o la cards en linea-->
-  </div>
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Create a New Post</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          <div class="col-12">
-            <div class="form-group shadow-textarea">
-                <label for="exampleFormControlTextarea6">Caption</label>
-                <textarea class="form-control z-depth-1" id="exampleFormControlTextarea6" rows="3" placeholder="Ingresa tu nuevo post..."></textarea>
+          </section>
+        <section id="grilla">
+         <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-sm-1 d-flex">
+                  <a href="./proyecto_boots/card.html"><i class="fa-solid fa-square "></i></a>
+                  </div>
+                   <div class="col-sm-1 d-flex"> 
+                    <a href="./proyecto_boots/cards_2.html"><i class="fa-solid fa-grip "></i></a>
+                   </div>
+                </div>
               </div>
-            <ul class="col-12 bg-ligth d-flex">
-                <div class="col-1 bg-ligth mt-2 p-1">
-                    <i class="fa-solid fa-camera-retro"></i>
-                </div>
-                <div class="col-1 bg-ligth mt-2 p-1">
-                    <i class="fa-solid fa-location-dot"></i>
-                </div>
-            </ul>
+      </section>
+       <!-- agregar aqui las cards multiples o la cards en linea-->
+        <section id="galeria">
+          <div class="container">
+            <div class="row">
+              <div id="gal1">
+                <img src="./proyecto_boots/card.html">
+              </div>
+              <div id="gal2">
+                <img src="./proyecto_boots/cards_2.html">
+              </div>
+            </div>
           </div>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-success">Publish</button>
-        </div>
-      </div>
-    </div>
-  </div>
+          </section>
+          <!-- Modal -->
+            <section id="modal">
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Create a New Post</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <div class="col-12">
+                        <div class="form-group shadow-textarea">
+                            <label for="exampleFormControlTextarea6">Caption</label>
+                            <textarea class="form-control z-depth-1" id="exampleFormControlTextarea6" rows="3" placeholder="Ingresa tu nuevo post..."></textarea>
+                          </div>
+                        <ul class="col-12 bg-ligth d-flex">
+                            <div class="col-1 bg-ligth mt-2 p-1">
+                                <i class="fa-solid fa-camera-retro"></i>
+                            </div>
+                            <div class="col-1 bg-ligth mt-2 p-1">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-success">Publish</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> 
